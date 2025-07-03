@@ -1,8 +1,3 @@
-let i = 0;
-let j = 2;
+const { add } = require('./add');
 
-console.log(j);
-
-if (i === j) {
-  console.log('Test');
-}
+console.log(add(1, 2));
