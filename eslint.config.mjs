@@ -17,7 +17,7 @@ export default [
       ...prettier.rules,
       'prettier/prettier': ['error', { endOfLine: 'auto' }],
       'no-unused-vars': 'warn',
-      eqeqeq: 'warn',
+      eqeqeq: 'error',
     },
   },
 ];
